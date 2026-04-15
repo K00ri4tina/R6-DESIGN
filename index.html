@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Gun Comparison</title>
+</head>
+<body>
+
+<style>
+.gtable { width:100%; border-collapse:collapse; font-size:12px; }
+.gtable th { font-weight:500; font-size:11px; color:var(--color-text-secondary); padding:6px 8px; border-bottom:0.5px solid var(--color-border-tertiary); text-align:center; }
+.gtable td { padding:7px 8px; border-bottom:0.5px solid var(--color-border-tertiary); text-align:center; vertical-align:middle; color:var(--color-text-primary); }
+.gtable tr:last-child td { border-bottom:none; }
+.gun-label { font-weight:500; text-align:left !important; font-size:13px; }
+.bar-wrap { background:var(--color-background-secondary); border-radius:3px; height:10px; width:100%; min-width:60px; overflow:hidden; }
+.bar-fill { height:100%; border-radius:3px; }
+.tag { display:inline-block; padding:2px 8px; border-radius:4px; font-size:11px; font-weight:500; }
+.tag-r6 { background:#E1F5EE; color:#085041; }
+.tag-cod { background:#FAECE7; color:#712B13; }
+.section-head td { background:var(--color-background-secondary); font-weight:500; font-size:11px; color:var(--color-text-secondary); padding:4px 8px; }
+</style>
+
+<div style="display:flex;gap:12px;margin-bottom:12px;align-items:center;flex-wrap:wrap">
+  <span style="font-size:13px;font-weight:500;color:var(--color-text-primary)">枪系五维边界对比</span>
+  <span class="tag tag-r6">R6 </span>
+  <span class="tag tag-cod">COD21 </span>
+  <span style="font-size:11px;color:var(--color-text-tertiary);margin-left:auto">数值为设计区间，非真实游戏数据,仅作参考</span>
+</div>
+
+<table class="gtable">
+<thead>
+<tr>
+  <th style="text-align:left;width:60px">枪型</th>
+  <th style="width:30px">游戏</th>
+  <th>射程</th>
+  <th>移动性</th>
+  <th>操控性</th>
+  <th>穿透</th>
+  <th>破坏力</th>
+</tr>
+</thead>
+<tbody>
+
+<tr class="section-head"><td colspan="8">突击步枪 AR </td></tr>
+<tr>
+  <td class="gun-label" rowspan="2">AR</td>
+  <td><span class="tag tag-r6" style="padding:1px 5px;font-size:10px">R6</span></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:72%;background:#1D9E75"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:52%;background:#1D9E75"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:40%;background:#1D9E75"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:55%;background:#1D9E75"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:68%;background:#1D9E75"></div></div></td>
+</tr>
+<tr>
+  <td><span class="tag tag-cod" style="padding:1px 5px;font-size:10px">COD</span></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:65%;background:#D85A30"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:62%;background:#D85A30"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:60%;background:#D85A30"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:50%;background:#D85A30"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:58%;background:#D85A30"></div></div></td>
+</tr>
+
+<tr class="section-head"><td colspan="8">冲锋枪 SMG </td></tr>
+<tr>
+  <td class="gun-label" rowspan="2">SMG</td>
+  <td><span class="tag tag-r6" style="padding:1px 5px;font-size:10px">R6</span></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:32%;background:#1D9E75"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:88%;background:#1D9E75"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:75%;background:#1D9E75"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:25%;background:#1D9E75"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:30%;background:#1D9E75"></div></div></td>
+</tr>
+<tr>
+  <td><span class="tag tag-cod" style="padding:1px 5px;font-size:10px">COD</span></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:40%;background:#D85A30"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:92%;background:#D85A30"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:80%;background:#D85A30"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:22%;background:#D85A30"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:32%;background:#D85A30"></div></div></td>
+</tr>
+
+<tr class="section-head"><td colspan="8">霰弹枪 SG </td></tr>
+<tr>
+  <td class="gun-label" rowspan="2">SG</td>
+  <td><span class="tag tag-r6" style="padding:1px 5px;font-size:10px">R6</span></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:15%;background:#1D9E75"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:60%;background:#1D9E75"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:40%;background:#1D9E75"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:80%;background:#1D9E75"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:95%;background:#1D9E75"></div></div></td>
+</tr>
+<tr>
+  <td><span class="tag tag-cod" style="padding:1px 5px;font-size:10px">COD</span></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:18%;background:#D85A30"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:55%;background:#D85A30"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:50%;background:#D85A30"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:40%;background:#D85A30"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:90%;background:#D85A30"></div></div></td>
+</tr>
+
+<tr class="section-head"><td colspan="8">步枪 MR/SR </td></tr>
+<tr>
+  <td class="gun-label" rowspan="2">MR</td>
+  <td><span class="tag tag-r6" style="padding:1px 5px;font-size:10px">R6</span></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:85%;background:#1D9E75"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:30%;background:#1D9E75"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:28%;background:#1D9E75"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:70%;background:#1D9E75"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:78%;background:#1D9E75"></div></div></td>
+</tr>
+<tr>
+  <td><span class="tag tag-cod" style="padding:1px 5px;font-size:10px">COD</span></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:80%;background:#D85A30"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:38%;background:#D85A30"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:35%;background:#D85A30"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:60%;background:#D85A30"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:72%;background:#D85A30"></div></div></td>
+</tr>
+<tr>
+  <td class="gun-label" rowspan="2">SR</td>
+  <td><span class="tag tag-r6" style="padding:1px 5px;font-size:10px">R6</span></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:95%;background:#1D9E75"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:18%;background:#1D9E75"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:15%;background:#1D9E75"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:88%;background:#1D9E75"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:92%;background:#1D9E75"></div></div></td>
+</tr>
+<tr>
+  <td><span class="tag tag-cod" style="padding:1px 5px;font-size:10px">COD</span></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:98%;background:#D85A30"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:25%;background:#D85A30"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:22%;background:#D85A30"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:78%;background:#D85A30"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:95%;background:#D85A30"></div></div></td>
+</tr>
+
+<tr class="section-head"><td colspan="8">机枪 LMG</td></tr>
+<tr>
+  <td class="gun-label" rowspan="2">LMG</td>
+  <td><span class="tag tag-r6" style="padding:1px 5px;font-size:10px">R6</span></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:65%;background:#1D9E75"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:20%;background:#1D9E75"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:25%;background:#1D9E75"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:62%;background:#1D9E75"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:72%;background:#1D9E75"></div></div></td>
+</tr>
+<tr>
+  <td><span class="tag tag-cod" style="padding:1px 5px;font-size:10px">COD</span></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:62%;background:#D85A30"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:28%;background:#D85A30"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:32%;background:#D85A30"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:55%;background:#D85A30"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:68%;background:#D85A30"></div></div></td>
+</tr>
+
+<tr class="section-head"><td colspan="8">手枪 Pistol </td></tr>
+<tr>
+  <td class="gun-label" rowspan="2">手枪</td>
+  <td><span class="tag tag-r6" style="padding:1px 5px;font-size:10px">R6</span></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:28%;background:#1D9E75"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:90%;background:#1D9E75"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:85%;background:#1D9E75"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:20%;background:#1D9E75"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:35%;background:#1D9E75"></div></div></td>
+</tr>
+<tr>
+  <td><span class="tag tag-cod" style="padding:1px 5px;font-size:10px">COD</span></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:32%;background:#D85A30"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:90%;background:#D85A30"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:88%;background:#D85A30"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:18%;background:#D85A30"></div></div></td>
+  <td><div class="bar-wrap"><div class="bar-fill" style="width:30%;background:#D85A30"></div></div></td>
+</tr>
+
+</tbody>
+</table>
+
+
+</body>
+</html>
